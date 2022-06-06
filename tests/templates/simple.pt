@@ -1,0 +1,1 @@
+<test>${template_name} ${myvar} ${some_var}</test>

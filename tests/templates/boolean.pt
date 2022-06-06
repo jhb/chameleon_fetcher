@@ -1,0 +1,5 @@
+<option tal:attributes="selected one">one</option>
+<option tal:attributes="selected two">two</option>
+
+<input type="checkbox" tal:attributes="checked three">Three
+<input type="checkbox" tal:attributes="checked four">Four
