@@ -1,7 +1,6 @@
 # Chameleon fetcher
 
-A small wrapper for chameleon (page templates) to easily fetch and render
-templates.
+A small wrapper for [chameleon page templates](https://github.com/malthe/chameleon) to easily fetch and render templates.
 
 ## Installation
 
@@ -39,6 +38,9 @@ The following parameters are accepted by ChameleonFetcher:
 And optionally:
 
 - _extension_: extension of the template files, defaults to '.pt'
-- _boolean_attributes_: what boolean attributes should be supported, defaults to {'selected', 'checked'}
+- _boolean_attributes_: what boolean attributes should be supported, defaults to {'selected', '
+  checked'}
 - _auto_reload_: if the templates should be reloaded on change, defaults to True
 - **kwargs: other params you want to have available in all templates, e.g. flask=flask
+
+For using the actual templates, check the fantastic [chameleon documentation](https://chameleon.readthedocs.io/en/latest/).
