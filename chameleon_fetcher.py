@@ -19,7 +19,7 @@ class ChameleonFetcher:
         :param kwargs: other params you want to have available in all templates, e.g. flask=flask - is optional
         """
         if boolean_attributes is None:
-            boolean_attributes = {"selected", "checked"}  # why wouldn't you want this?
+            boolean_attributes = {"selected", "checked", "disabled"}  # why wouldn't you want this?
         if extension is None:
             extension = '.pt'
 
