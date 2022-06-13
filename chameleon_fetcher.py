@@ -1,5 +1,32 @@
 from chameleon import PageTemplateLoader
 
+# see https://meiert.com/en/blog/boolean-attributes-of-html/
+all_boolean_attributes = [
+    "allowfullscreen",
+    "async",
+    "autofocus",
+    "autoplay",
+    "checked",
+    "controls",
+    "default",
+    "defer",
+    "disabled",
+    "formnovalidate",
+    "ismap",
+    "itemscope",
+    "loop",
+    "multiple",
+    "muted",
+    "nomodule",
+    "novalidate",
+    "open",
+    "playsinline",
+    "readonly",
+    "required",
+    "reversed",
+    "selected",
+    "truespeed",
+]
 
 class ChameleonFetcher:
 
@@ -19,7 +46,7 @@ class ChameleonFetcher:
         :param kwargs: other params you want to have available in all templates, e.g. flask=flask - is optional
         """
         if boolean_attributes is None:
-            boolean_attributes = {"selected", "checked", "disabled"}  # why wouldn't you want this?
+            boolean_attributes = all_boolean_attributes  # why wouldn't you want this?
         if extension is None:
             extension = '.pt'
 

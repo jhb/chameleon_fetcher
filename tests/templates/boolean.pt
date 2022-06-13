@@ -1,8 +1,25 @@
-<option tal:attributes="selected one">One</option>
-<option tal:attributes="selected two">Two</option>
-
-<input type="checkbox" tal:attributes="checked three">Three
-<input type="checkbox" tal:attributes="checked four">Four
-
-<option tal:attributes="disabled one">Five</option>
-<option tal:attributes="disabled two">Six</option>
+<div id="allowfullscreen" tal:attributes="allowfullscreen values.get('allowfullscreen',None)"></div>
+<div id="async" tal:attributes="async values.get('async',None)"></div>
+<div id="autofocus" tal:attributes="autofocus values.get('autofocus',None)"></div>
+<div id="autoplay" tal:attributes="autoplay values.get('autoplay',None)"></div>
+<div id="checked" tal:attributes="checked values.get('checked',None)"></div>
+<div id="controls" tal:attributes="controls values.get('controls',None)"></div>
+<div id="default" tal:attributes="default values.get('default',None)"></div>
+<div id="defer" tal:attributes="defer values.get('defer',None)"></div>
+<div id="disabled" tal:attributes="disabled values.get('disabled',None)"></div>
+<div id="formnovalidate" tal:attributes="formnovalidate values.get('formnovalidate',None)"></div>
+<div id="ismap" tal:attributes="ismap values.get('ismap',None)"></div>
+<div id="itemscope" tal:attributes="itemscope values.get('itemscope',None)"></div>
+<div id="loop" tal:attributes="loop values.get('loop',None)"></div>
+<div id="multiple" tal:attributes="multiple values.get('multiple',None)"></div>
+<div id="muted" tal:attributes="muted values.get('muted',None)"></div>
+<div id="nomodule" tal:attributes="nomodule values.get('nomodule',None)"></div>
+<div id="novalidate" tal:attributes="novalidate values.get('novalidate',None)"></div>
+<div id="open" tal:attributes="open values.get('open',None)"></div>
+<div id="playsinline" tal:attributes="playsinline values.get('playsinline',None)"></div>
+<div id="readonly" tal:attributes="readonly values.get('readonly',None)"></div>
+<div id="required" tal:attributes="required values.get('required',None)"></div>
+<div id="reversed" tal:attributes="reversed values.get('reversed',None)"></div>
+<div id="selected" tal:attributes="selected values.get('selected',None)"></div>
+<div id="truespeed" tal:attributes="truespeed values.get('truespeed',None)"></div>
+<div id="other" tal:attributes="other values.get('other',None)"></div>

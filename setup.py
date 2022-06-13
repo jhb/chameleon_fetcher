@@ -6,7 +6,7 @@ with open("README.md", "r", encoding="utf-8") as fh:
 
 setuptools.setup(
     name="chameleon-fetcher",
-    version="0.0.1",
+    version="0.0.2",
     author="Joerg Baach",
     author_email="mail@baach.de",
     description="Utility to quickly fetch and render a chameleon template",

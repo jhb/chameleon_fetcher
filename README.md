@@ -38,8 +38,8 @@ The following parameters are accepted by ChameleonFetcher:
 And optionally:
 
 - _extension_: extension of the template files, defaults to '.pt'
-- _boolean_attributes_: what boolean attributes should be supported, defaults to {'selected', '
-  checked', 'disabled'}
+- _boolean_attributes_: what boolean attributes should be supported, defaults to all valid html
+  boolean attributes. See https://meiert.com/en/blog/boolean-attributes-of-html/
 - _auto_reload_: if the templates should be reloaded on change, defaults to True
 - **kwargs: other params you want to have available in all templates, e.g. flask=flask
 
